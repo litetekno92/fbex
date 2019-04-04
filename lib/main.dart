@@ -23,7 +23,7 @@ Future<String> _loadAStudentAsset() async {
 }
 
 Future<Student> loadStudent() async {
-  await wait(5);
+  await wait(2);
   String jsonString = await _loadAStudentAsset();
   final jsonResponse = json.decode(jsonString);
   return new Student.fromJson(jsonResponse);
