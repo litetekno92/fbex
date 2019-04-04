@@ -73,6 +73,7 @@ class MyAppState extends State<MyApp> {
             title: new Text('Load Json'),
           ),
           body: futureWidget()
+    )
     );
   }
 }
